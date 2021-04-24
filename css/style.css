@@ -9,7 +9,7 @@
     float: right
   }
   nav{
-      float: right;
+      float: left;
   }
 
   nav li{
@@ -28,4 +28,9 @@ nav a{
 }
 body{
     background-color: #dddddd;
+}
+a{
+    display: block;
+    padding: 8px;
+    
 }
