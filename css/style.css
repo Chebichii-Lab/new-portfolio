@@ -1,15 +1,14 @@
 #home{
-    background-image: url("/images/my\ logo.jpeg");
     height: 60%;
     background-repeat: no-repeat;
     background-position: center;
 }
 .natasha{
     width: 50%;
-    float: right
+    float: right;
   }
   nav{
-      float: left;
+      float: right;
   }
 
   nav li{
@@ -20,17 +19,11 @@
     position: relative;
     margin-right: 50px; 
 }
-nav a{
-    text-transform: uppercase;
-    font-size: 10px;
-    color: bisque;
-    text-decoration: none;
+h1{
+    text-align: center;
 }
 body{
-    background-color: #dddddd;
+    background-color: #f5b2b2fa;
 }
-a{
-    display: block;
-    padding: 8px;
-    
-}
+
+
