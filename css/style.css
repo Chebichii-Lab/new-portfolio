@@ -1,5 +1,5 @@
 #home{
-    background-image: url("../images/my\ logo.jpeg");
+    background-image: url("/images/my\ logo.jpeg");
     height: 60%;
     background-repeat: no-repeat;
     background-position: center;
@@ -11,10 +11,7 @@
   nav{
       float: right;
   }
-  img{
-      width: 20%;
-      display: inline;
-  }
+
   nav li{
     display: inline-block;
     list-style-type: none;
@@ -22,4 +19,13 @@
     padding: 3px;
     position: relative;
     margin-right: 50px; 
+}
+nav a{
+    text-transform: uppercase;
+    font-size: 10px;
+    color: bisque;
+    text-decoration: none;
+}
+body{
+    background-color: #dddddd;
 }
